@@ -1,12 +1,12 @@
 //import React from "react";
-/* import { Global } from "../../helpers/Global";
+import { Global } from "../../helpers/Global";
 import { Peticion } from "../../helpers/Peticion";
 
 export const Listado = ({ articulos, setArticulos }) => {
   const eliminar = async (id) => {
     let { datos } = await Peticion(Global.url + "articulo/" + id, "DELETE");
 
-    if (datos.status === "success") {
+    if (datos.status === "sucsess") {
       let articulosActualizados = articulos.filter(
         (articulo) => articulo._id !== id
       );
@@ -44,10 +44,9 @@ export const Listado = ({ articulos, setArticulos }) => {
     );
   });
 };
- */
 
 //import React from "react";
-import { Global } from "../../helpers/Global";
+/* import { Global } from "../../helpers/Global";
 import { Peticion } from "../../helpers/Peticion";
 
 export const Listado = ({ articulos, setArticulos }) => {
@@ -92,4 +91,4 @@ export const Listado = ({ articulos, setArticulos }) => {
       </div>
     </article>
   ));
-};
+}; */
